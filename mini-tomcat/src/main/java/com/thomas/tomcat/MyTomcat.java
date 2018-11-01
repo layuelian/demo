@@ -77,7 +77,6 @@ public class MyTomcat {
             //此时此刻，还缺一个Servlet
             //service(Request,Response)  doGet doPost
 
-            //这个Servlet自己从没亲手new过？
             //读取web.xml文件来获取自己的Servlet
             //利用反射机制new处理
             String url = request.getUrl();
