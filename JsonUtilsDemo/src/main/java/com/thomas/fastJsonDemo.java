@@ -50,5 +50,6 @@ public class fastJsonDemo {
         JSONObject jsonObject = JSON.parseObject(all.toJSONString());
         String status = jsonObject.getString("status");
         System.out.println(status);
+
     }
 }
